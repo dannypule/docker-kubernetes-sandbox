@@ -1,0 +1,16 @@
+{
+  "name": "docker-kubernetes-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker:build": "docker build -t dannypule/webthing .",
+    "docker:run": "docker run -p 8080:8080 dannypule/webthing"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
